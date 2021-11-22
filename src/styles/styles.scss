@@ -1,0 +1,17 @@
+//cambiando el color de los botones de bootstarp
+$theme-colors: (
+  'primary': #2c3e50,
+  'secondary': #1d6942,
+  'success': #188754,
+  'info': #0dcaf0,
+  'warning': #ffc107,
+  'danger': #dc3545,
+  'light': #f8f9fa,
+  'dark': #343a40,
+);
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+
+.pointer {
+  cursor: pointer;
+}
